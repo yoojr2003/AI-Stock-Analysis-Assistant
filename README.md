@@ -1,4 +1,4 @@
- AI 주식 분석 비서 (AI Stock Analysis Assistant)
+AI 주식 분석 비서 (AI Stock Analysis Assistant)
 
 소프트웨어학과 2025년도 졸업 작품 프로젝트
 
