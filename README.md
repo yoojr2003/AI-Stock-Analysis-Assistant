@@ -40,3 +40,5 @@ AI-Stock-Analysis-Assistant/
 │   └── evaluate_ragas.py             # RAGAS 프레임워크 기반 성능 자동 채점
 ├── requirements.txt
 └── README.md
+
+이 프로젝트는 구글 코랩 환경에서 테스트되었습니다
