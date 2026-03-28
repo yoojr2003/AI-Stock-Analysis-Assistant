@@ -26,7 +26,7 @@
 ```text
 AI-Stock-Analysis-Assistant/
 ├── data/                  # 원본 및 파싱된 DART JSON 데이터 보관
-├── db/                    # Vector DB (ChromaDB) 보관 장소
+├── db/                    # Vector DB (ChromaDB) 보관
 ├── docs/                  # 프로젝트 제안서 및 보고서
 ├── src/                   # 소스 코드
 │   ├── extract_baseline.py           # 기본 텍스트 파싱
@@ -35,8 +35,8 @@ AI-Stock-Analysis-Assistant/
 │   ├── build_db_table_aware.py       # 표 인지형 DB 구축
 │   ├── build_db_table_to_text.py     # LLM 요약(Table-to-Text) 적용 DB 구축
 │   ├── build_db_hybrid.py            # 하이브리드 검색기 세팅
-│   ├── retriever_hybrid.py           # 검색 및 AI 답변 생성 모듈 (Serving)
-│   ├── eval_data.py                  # 평가용 질의응답 데이터셋 (Ground Truth)
+│   ├── retriever_hybrid.py           # 검색 및 AI 답변 생성 모듈
+│   ├── eval_data.py                  # 평가용 질의응답 데이터셋
 │   └── evaluate_ragas.py             # RAGAS 프레임워크 기반 성능 자동 채점
 ├── requirements.txt
 └── README.md
