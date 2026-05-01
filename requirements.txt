@@ -1,0 +1,51 @@
+# ============================================
+# AI 주식 분석 비서
+# Python 3.12 권장
+# ============================================
+
+# === Core 웹 프레임워크 ===
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+streamlit==1.40.0
+pyngrok==7.2.0
+python-multipart==0.0.12
+
+# === 데이터 처리 ===
+pandas==2.2.3
+numpy==1.26.4
+beautifulsoup4==4.12.3
+lxml==5.3.0
+requests==2.32.3
+
+# === RAG ===
+chromadb==0.5.20
+rank-bm25==0.2.2
+openai==1.54.0
+
+# === 임베딩 / 재순위 (Optional GPU 권장) ===
+# CPU에서도 동작하지만 매우 느림
+sentence-transformers==3.3.1
+transformers==4.46.0
+# torch는 환경에 맞게 별도 설치 권장
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+torch>=2.1.0
+
+# === LLM (HyperCLOVA X) ===
+# requests로 직접 호출
+
+# === PDF 보고서 ===
+reportlab==4.2.5
+matplotlib==3.10.0
+Pillow==11.0.0
+
+# === 환경변수 ===
+python-dotenv==1.0.1
+
+# === 개발/디버깅 (선택) ===
+# pytest==8.3.0
+# black==24.10.0
+# ruff==0.7.0
+
+# === Colab 환경에 이미 설치된 것 ===
+# google-colab
+# tqdm 
