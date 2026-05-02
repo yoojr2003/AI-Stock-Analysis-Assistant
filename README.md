@@ -150,7 +150,7 @@ build_fact_db(
     output_path='/content/db/facts.db',
 )
 
-# 4) RAG 색인 (~25-30분, OpenAI 임베딩 호출)
+# 4) RAG 색인 (25-30분, OpenAI 임베딩 호출)
 from build_rag_db import build_rag_index
 build_rag_index(
     sections_path='/content/data/processed/sections.jsonl',
