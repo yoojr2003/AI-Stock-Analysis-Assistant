@@ -201,7 +201,7 @@ public_url = ngrok.connect(8501, 'http')
 print(f"\n 외부 접속 URL: {public_url.public_url}")
 ```
 
-→ ngrok URL을 브라우저에 입력하면 4탭 웹 애플리케이션 사용 가능
+→ ngrok URL을 브라우저에 입력하면 웹 애플리케이션 사용 가능
 
 ### 옵션 2: 로컬에서 실행
 
