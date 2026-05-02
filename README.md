@@ -1,13 +1,13 @@
 # DART 공시 기반 AI 주식 분석 비서
 
-> **XBRL 메타데이터 활용 사실 DB와 라우팅 RAG의 통합**
+> **XBRL 메타데이터 활용 사실 DB와 라우팅 RAG 통합**
 
 [![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.40-FF4B4B)](https://streamlit.io/)
 [![FastAPI](https://img.shields.io/badge/fastapi-0.115-009688)](https://fastapi.tiangolo.com/)
 
-성균관대학교 소프트웨어융합대학 (2026)
+성균관대학교 소프트웨어대학 (2026)
 
 ---
 
@@ -358,7 +358,7 @@ AI-Stock-Analysis-Assistant/
 - DART 공시 자료를 기반으로 하지만, 통합 과정에서 **데이터 누락·오류 가능성**이 있습니다.
 - **정보 제공 목적**입니다.
 
-## 📜 라이선스
+## 📜 라이센스
 
 [MIT License](LICENSE)
 
