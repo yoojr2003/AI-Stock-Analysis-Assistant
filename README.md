@@ -100,7 +100,7 @@ export NAVER_CLIENT_ID="..."
 export NAVER_CLIENT_SECRET="..."
 
 # 데이터 준비 (1회만)
-python -m src.data.data_crawl_v3
+python -m src.data.data_crawl
 python -m src.data.preprocessor_v2
 python -m src.data.build_fact_db
 python -m src.data.build_rag_db
@@ -108,7 +108,7 @@ python -m src.data.build_rag_db
 # 백엔드 + 프론트엔드 실행
 python -m src.server.api_server &
 streamlit run src/server/streamlit_app.py
-# → http://localhost:8501 접속
+# → http://localhost: 접속
 ```
 
 ## 📂 프로젝트 구조
@@ -125,7 +125,7 @@ dart-ai-stock-analyst/
 │   ├── retrieval/                 ← RAG 모듈
 │   ├── data/                      ← 데이터 처리 (DART 크롤링, XBRL 파싱)
 │   ├── analytics/                 ← KPI · 비율 · 업종 비교
-│   ├── features/                  ← 신규 기능 (뉴스 · 메모리 · PDF)
+│   ├── features/                  ← 기능 (뉴스 · 메모리 · PDF)
 │   └── server/                    ← FastAPI + Streamlit
 │
 ├── eval/                          ← 평가 코드 + 데이터셋 (45개)
