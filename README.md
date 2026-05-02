@@ -85,7 +85,7 @@
 
 ```bash
 # 환경 준비
-git clone https://github.com/<your-id>/dart-ai-stock-analyst.git
+git clone https://github.com/yoojr2003/AI-Stock-Analysis-Assistant.git
 cd dart-ai-stock-analyst
 
 python -m venv venv
