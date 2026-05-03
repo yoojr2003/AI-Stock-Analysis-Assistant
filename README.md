@@ -31,7 +31,7 @@
 
 **라이브 데모**: Colab 실행 시 ngrok URL로 접속 가능
 
-**영상**: [docs/demo_video.mp4](docs/demo_video.mp4)
+**영상**: [![DART AI Stock Analyst Demo](https://img.youtube.com/vi/plB2DTC8NpM/maxresdefault.jpg)](https://youtu.be/plB2DTC8NpM)
 
 ## 핵심 발견
 
