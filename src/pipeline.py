@@ -542,6 +542,8 @@ class QAPipeline:
         
         lines.append("\n※ 뉴스 기반 답변으로 공시 자료가 아닙니다.")
         return "\n".join(lines)
+    
+    def _handle_sector_compare(self, query: str, qi: QueryInfo) -> Response:
         """업종 내 기업 비교"""
         try:
             import analytics
